@@ -1,0 +1,17 @@
+button{
+    background: linear-gradient(rgb(34, 101, 236),rgb(8, 78, 219));
+    color: var(--first-color);
+    font-size: 12px;
+    border: none;
+    border-radius: 50px;
+    padding: 13px;
+    min-width: 220px;
+    max-width: 230px;
+    outline: none;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(rgb(1, 21, 61),rgb(0, 30, 88));
+}

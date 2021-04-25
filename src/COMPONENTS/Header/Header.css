@@ -1,0 +1,61 @@
+.header-wrapper{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 90px;
+    
+    /* overflow: hidden; */
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background: var(--main-color);
+}
+
+
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+
+}
+.hero-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-title h2{
+color: var(--first-color);
+font-size: 1.2rem;
+margin-right: 12px;
+}
+svg{
+position: relative;
+margin-top: -1px;
+margin-bottom: 50px;
+}
+
+
+
+path{
+    fill: var(--main-color);
+}
+
+
+@media screen and (min-width:740px)  {
+    .header-wrapper{
+        height: 35vh !important;
+    }
+  .hero{
+    position: relative !important;
+    top: 90px !important;
+    z-index: 999 !important;
+  }
+}

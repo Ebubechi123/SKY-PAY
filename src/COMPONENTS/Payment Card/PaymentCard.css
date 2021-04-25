@@ -1,0 +1,37 @@
+.paymentCard-Container{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+
+.carousel-container{
+    width: 100%;
+    height: inherit;
+}
+
+.card-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+select{
+    width: 234px;
+    border-radius: 9px;
+    height: 7vh;
+    margin-bottom: 23px;
+    margin-left: 23px;
+    outline: none;
+    padding: 3px;
+    cursor: pointer;
+    background: var(  --main-color);
+    color: var(--first-color);
+}
+
+
+
+
+
+

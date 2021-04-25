@@ -1,0 +1,29 @@
+.settings-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 12%;
+}
+
+
+.Settings-Main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-tab{
+    width: 100%;
+    height: 12vh;
+    background-color: var(--main-color);
+    color: var(--first-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom:1px;
+    margin-top: 1px;
+}
+
+
